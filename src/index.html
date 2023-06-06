@@ -9,13 +9,22 @@
       sizes="32x32"
       href="./assets/images/favicon-32x32.png"
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&family=Outfit:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
 
+    <link rel="stylesheet" href="scss/style.css" />
     <title>Frontend Mentor | Results summary component</title>
   </head>
   <body>
     <main>
+      <!-- Results summary card -->
       <div class="card">
         <div class="card-container">
+          <!-- Card results section -->
           <section class="card-results">
             <h3 class="card-results_title">Your Result</h3>
             <div class="card-results_score">
@@ -28,6 +37,8 @@
               tests.
             </p>
           </section>
+          <!-- end card results section -->
+          <!-- Card summary section -->
           <section class="card-summary">
             <h3 class="card_summary_title">Summary</h3>
             <div class="card-rows">
@@ -72,19 +83,13 @@
                 <p><b>72</b> / 100</p>
               </div>
             </div>
+            <!-- Card button -->
+            <button class="card-btn">Continue</button>
           </section>
+          <!-- end card summary section -->
         </div>
       </div>
+      <!-- end card -->
     </main>
-
-    <div class="attribution">
-      Challenge by
-      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
-        >Frontend Mentor</a
-      >. Coded by
-      <a href="https://www.frontendmentor.io/profile/Mtmuhammad"
-        >Marcellus Muhammad</a
-      >.
-    </div>
   </body>
 </html>
