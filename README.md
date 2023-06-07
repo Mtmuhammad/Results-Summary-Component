@@ -29,16 +29,15 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Github](https://github.com/Mtmuhammad/Results-Summary-Component)
-- Live Site URL: [Netlify](https://your-live-site-url.com)
+- Live Site URL: [Netlify](https://results-summary-componentmtm.netlify.app/)
 
 ## My process
 
 ### Built with
 
 - Semantic HTML5 markup
-- CSS custom properties
 - Flexbox
-- Sass
+- Sass for CSS styling
 
 ## Author
 
